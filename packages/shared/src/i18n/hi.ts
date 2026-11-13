@@ -1,0 +1,143 @@
+import { I18N_KEYS, type I18nKey } from './keys.js';
+
+export const hi: Record<I18nKey, string> = {
+  [I18N_KEYS.appName]: 'पुष्करालु रीयूनाइट',
+  [I18N_KEYS.tagline]: 'घाट पर साथ रहें',
+
+  [I18N_KEYS.actionLogin]: 'लॉगिन',
+  [I18N_KEYS.actionCreateAccount]: 'खाता बनाएं',
+  [I18N_KEYS.actionSubmit]: 'जमा करें',
+  [I18N_KEYS.actionVerify]: 'सत्यापित करें',
+  [I18N_KEYS.actionFinish]: 'समाप्त करें',
+  [I18N_KEYS.actionContinue]: 'जारी रखें',
+  [I18N_KEYS.actionRetry]: 'पुनः प्रयास करें',
+  [I18N_KEYS.actionAddMember]: 'सदस्य जोड़ें',
+  [I18N_KEYS.actionShowQr]: 'रिस्टबैंड QR दिखाएं',
+  [I18N_KEYS.actionReportMissing]: 'लापता रिपोर्ट करें',
+  [I18N_KEYS.actionNavigateToBooth]: 'बूथ तक मार्ग',
+  [I18N_KEYS.actionCallBooth]: 'बूथ को कॉल करें',
+  [I18N_KEYS.actionLogout]: 'लॉग आउट',
+
+  [I18N_KEYS.fieldUniqueId]: 'विशिष्ट ID',
+  [I18N_KEYS.fieldPassword]: 'पासवर्ड',
+  [I18N_KEYS.fieldConfirmPassword]: 'पासवर्ड की पुष्टि करें',
+  [I18N_KEYS.fieldName]: 'नाम',
+  [I18N_KEYS.fieldOwnPhone]: 'अपना फ़ोन',
+  [I18N_KEYS.fieldAddress]: 'पता',
+  [I18N_KEYS.fieldAadhaarLast4]: 'आधार (अंतिम 4 अंक)',
+  [I18N_KEYS.fieldEmergencyPhone]: 'आपातकालीन फ़ोन',
+  [I18N_KEYS.fieldLivePhoto]: 'लाइव फ़ोटो',
+  [I18N_KEYS.consentReunification]:
+    'मैं केवल पुनर्मिलन के उद्देश्य से अपने परिवार का विवरण साझा करने के लिए सहमत हूँ',
+  [I18N_KEYS.consentMinor]:
+    'अभिभावक के रूप में, मैं इस नाबालिग की ओर से पुनर्मिलन के लिए सहमति देता हूँ',
+  [I18N_KEYS.livePhotoNote]:
+    'कैमरा खुलता है, एक स्पष्ट फ़ोटो लें. केवल इसलिए ताकि पुलिस आपको पहचान सके. कोई चेहरा मिलान नहीं किया जाता.',
+
+  [I18N_KEYS.tabHome]: 'होम',
+  [I18N_KEYS.tabNews]: 'समाचार',
+  [I18N_KEYS.tabMyList]: 'मेरी सूची',
+  [I18N_KEYS.tabProfile]: 'प्रोफ़ाइल',
+  [I18N_KEYS.tabBooths]: 'बूथ',
+
+  [I18N_KEYS.homeHelpline]: 'हेल्पलाइन',
+  [I18N_KEYS.homeLocation]: 'स्थान: कोटिलिंगला घाट',
+  [I18N_KEYS.homeSosPolice]: 'SOS पुलिस',
+  [I18N_KEYS.homeSosMedical]: 'SOS चिकित्सा',
+  [I18N_KEYS.homeOfflineMaps]: 'ऑफ़लाइन मानचित्र',
+  [I18N_KEYS.homeFamilyAccount]: 'पारिवारिक खाता',
+  [I18N_KEYS.emptyNoMembersTitle]: 'कोई सदस्य नहीं जोड़ा गया',
+  [I18N_KEYS.emptyNoMembersAction]: 'सदस्य जोड़ें',
+  [I18N_KEYS.stateLoading]: 'लोड हो रहा है',
+  [I18N_KEYS.stateOffline]: 'आप ऑफ़लाइन हैं. सहेजा गया डेटा दिखाया जा रहा है.',
+  [I18N_KEYS.stateErrorGeneric]: 'कुछ गलत हो गया. कृपया पुनः प्रयास करें.',
+
+  [I18N_KEYS.statusMissing]: 'लापता',
+  [I18N_KEYS.statusFound]: 'मिल गया',
+  [I18N_KEYS.statusMatched]: 'मिलान हुआ',
+  [I18N_KEYS.statusReunited]: 'पुनर्मिलन',
+  [I18N_KEYS.reportMissingConfirm]: 'क्या इस सदस्य को लापता रिपोर्ट करें?',
+  [I18N_KEYS.reportMissingAlertSent]:
+    'पुलिस और आस-पास के स्वयंसेवकों को तुरंत सतर्क कर दिया गया है.',
+
+  [I18N_KEYS.profileLanguage]: 'भाषा',
+  [I18N_KEYS.profileOfflineMaps]: 'ऑफ़लाइन मानचित्र',
+  [I18N_KEYS.profileEmergencyContacts]: 'आपातकालीन संपर्क',
+  [I18N_KEYS.profileConsent]: 'गोपनीयता और सहमति',
+  [I18N_KEYS.profileWristbandQr]: 'रिस्टबैंड QR',
+
+  [I18N_KEYS.statusMissingDetail]: 'लापता — खोज जारी',
+  [I18N_KEYS.statusFoundDetail]: 'मिल गया — बूथ ले जाएँ (अभी संग्रह नहीं)',
+  [I18N_KEYS.statusMatchedDetail]: 'बूथ पर — परिवार OTP से लें',
+  [I18N_KEYS.statusReunitedDetail]: 'पुनर्मिलन — OTP सत्यापित',
+  [I18N_KEYS.statusSafe]: 'सुरक्षित',
+
+  [I18N_KEYS.homeTapNavigateBooth]: 'टैप → बूथ पर जाएँ',
+  [I18N_KEYS.myListTapHint]: 'विवरण के लिए टैप करें',
+  [I18N_KEYS.myListSelf]: 'स्वयं',
+
+  [I18N_KEYS.boothsTapNavigate]: 'बूथ पर टैप कर वहाँ जाएँ',
+  [I18N_KEYS.boothsOfficer]: 'अधिकारी',
+  [I18N_KEYS.boothsNavigate]: 'मार्ग →',
+  [I18N_KEYS.boothsNoLocation]: 'स्थान नहीं',
+  [I18N_KEYS.boothsNoLocationTitle]: 'स्थान नहीं',
+  [I18N_KEYS.boothsNoLocationBody]: 'इस बूथ के मानचित्र निर्देशांक नहीं हैं.',
+  [I18N_KEYS.boothsMapsUnavailableTitle]: 'मानचित्र उपलब्ध नहीं',
+  [I18N_KEYS.boothsMapsUnavailableBody]: 'इस डिवाइस पर Google Maps नहीं खुल सका.',
+
+  [I18N_KEYS.newsAtBooth]: 'बूथ पर',
+  [I18N_KEYS.newsFound]: 'मिल गया',
+  [I18N_KEYS.newsMatchedHint]:
+    'बूथ पर हैं — केस स्क्रीन पर परिवार OTP से लें (हरा).',
+  [I18N_KEYS.newsFoundHint]:
+    'स्वयंसेवक उनके साथ हैं. बूथ जाएँ; MATCHED के बाद OTP खुलेगा.',
+  [I18N_KEYS.newsAction]: 'कार्रवाई',
+  [I18N_KEYS.newsNotice]: 'सूचना',
+
+  [I18N_KEYS.addMemberTitle]: 'सदस्य जोड़ें',
+  [I18N_KEYS.fieldNameRequired]: 'नाम *',
+  [I18N_KEYS.fieldOwnPhoneOptional]: 'अपना फ़ोन (वैकल्पिक)',
+  [I18N_KEYS.fieldAddressRequired]: 'पता *',
+  [I18N_KEYS.fieldAadhaarOptionalChild]: 'आधार (बच्चों के लिए वैकल्पिक)',
+  [I18N_KEYS.fieldEmergencyPhoneRequired]: 'आपातकालीन फ़ोन *',
+  [I18N_KEYS.placeholderFullName]: 'पूरा नाम',
+  [I18N_KEYS.placeholderMobile10]: '10 अंकों का मोबाइल',
+  [I18N_KEYS.placeholderVillageCity]: 'गाँव / शहर',
+  [I18N_KEYS.placeholderAadhaar12]: '12 अंक',
+  [I18N_KEYS.errorNameRequired]: 'नाम आवश्यक है',
+  [I18N_KEYS.errorAddressRequired]: 'पता आवश्यक है',
+  [I18N_KEYS.errorEmergencyPhone]: 'आपातकालीन फ़ोन कम से कम 10 अंकों का होना चाहिए',
+  [I18N_KEYS.errorOwnPhone]: 'अपना फ़ोन कम से कम 10 अंक या खाली',
+  [I18N_KEYS.errorAadhaar]: 'आधार 12 अंक या खाली होना चाहिए',
+
+  [I18N_KEYS.caseBoothCollection]: 'बूथ संग्रह',
+  [I18N_KEYS.caseLastSeenNearGhat]: 'घाट के पास अंतिम बार देखा',
+  [I18N_KEYS.caseOfficer]: 'अधिकारी',
+  [I18N_KEYS.caseWalkMeters]: 'मी पैदल',
+  [I18N_KEYS.caseDefaultBooth]: 'बूथ 07, कोटिलिंगला घाट',
+  [I18N_KEYS.caseStillMissing]: 'अभी भी लापता — स्वयंसेवक और पुलिस खोज रहे हैं.',
+  [I18N_KEYS.caseFoundGoBooth]:
+    'मिल गया — बूथ जाएँ. बूथ MATCHED की पुष्टि के बाद OTP खुलेगा.',
+  [I18N_KEYS.caseCollectOtpTitle]: 'OTP से लें (पारिवारिक लॉगिन)',
+  [I18N_KEYS.caseCollectOtpHint]:
+    'व्यक्ति बूथ पर है. अभिभावक फ़ोन पर OTP भेजें, फिर हरा चिह्नित करें.',
+  [I18N_KEYS.caseSendOtp]: 'संग्रह OTP भेजें',
+  [I18N_KEYS.caseResendOtp]: 'OTP फिर भेजें',
+  [I18N_KEYS.caseSentTo]: 'भेजा गया',
+  [I18N_KEYS.caseOtpPlaceholder]: '6 अंकों का OTP',
+  [I18N_KEYS.caseVerifyOtp]: 'OTP सत्यापित कर संग्रह चिह्नित करें',
+  [I18N_KEYS.caseCollectedTitle]: 'संग्रहित और सत्यापित',
+  [I18N_KEYS.caseCollectedBody]: 'OTP पुष्टि. सदस्य परिवार से मिल गया.',
+
+  [I18N_KEYS.memberPhotoDetails]: 'फ़ोटो + विवरण',
+  [I18N_KEYS.memberLastSeenPin]: 'अंतिम देखा पिन सक्रिय',
+  [I18N_KEYS.memberFoundGoBooth]: 'मिल गया — बूथ जाकर लें',
+  [I18N_KEYS.memberLastSeenGps]: 'अंतिम बार देखा (GPS से)',
+  [I18N_KEYS.memberOpenCase]: 'खुला केस',
+  [I18N_KEYS.memberFoundHint]: 'स्वयंसेवक साथ हैं — बूथ जाएँ. MATCHED के बाद OTP.',
+
+  [I18N_KEYS.wristbandTitle]: 'रिस्टबैंड QR',
+  [I18N_KEYS.wristbandHint]:
+    'QR में केवल UID है — कोई व्यक्तिगत डेटा नहीं. बच्चों/बुजुर्गों के लिए प्रिंट या सेव करें.',
+  [I18N_KEYS.wristbandPayload]: 'पेलोड',
+};

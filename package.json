@@ -1,0 +1,35 @@
+{
+  "name": "pushkaralu-reunite",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lost-person reporting and reunification app for Godavari Pushkaralu 2027 (Rajamahendravaram).",
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck",
+    "format": "prettier --write \"**/*.{ts,tsx,js,json,md,yml,yaml}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,json,md,yml,yaml}\"",
+    "db:up": "docker compose -f infra/docker-compose.yml up -d",
+    "db:down": "docker compose -f infra/docker-compose.yml down",
+    "migrate:up": "pnpm --filter @pushkaralu/api migrate:up",
+    "migrate:down": "pnpm --filter @pushkaralu/api migrate:down",
+    "seed": "pnpm --filter @pushkaralu/api seed",
+    "mobile": "pnpm --filter @pushkaralu/mobile start",
+    "mobile:android": "pnpm --filter @pushkaralu/mobile android",
+    "mobile:web": "pnpm --filter @pushkaralu/mobile web"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.18.0",
+    "@typescript-eslint/parser": "^8.18.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.4.2",
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+dist-web/
+build/
+*.tsbuildinfo
+
+# Cursor / local debug
+.cursor/
+
+# Turbo
+.turbo/
+
+# Coverage / test
+coverage/
+*.lcov
+
+# Environment
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Docker volumes (local)
+infra/.data/
+
+# Flutter (mobile, later steps)
+apps/mobile/.dart_tool/
+apps/mobile/build/
+apps/mobile/.flutter-plugins
+apps/mobile/.flutter-plugins-dependencies
+
+# Local wireframe render artifacts
+*_p[0-9]*.png
