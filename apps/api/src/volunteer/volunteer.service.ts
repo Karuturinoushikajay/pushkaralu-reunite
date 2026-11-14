@@ -57,7 +57,7 @@ export class VolunteerService {
       if (r.photo_key) {
         try {
           const key = this.encryption.decryptFromBase64(r.photo_key);
-          if (/^https?:\/\//i.test(key)) photoUrl = key;
+          if (/^https?:\/\//i.test(key) || /^data:image\//i.test(key)) photoUrl = key;
         } catch {
           photoUrl = null;
         }

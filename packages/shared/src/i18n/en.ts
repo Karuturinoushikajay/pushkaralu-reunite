@@ -17,6 +17,7 @@ export const en: Record<I18nKey, string> = {
   [I18N_KEYS.actionNavigateToBooth]: 'Navigate to booth',
   [I18N_KEYS.actionCallBooth]: 'Call booth',
   [I18N_KEYS.actionLogout]: 'Log out',
+  [I18N_KEYS.actionCancel]: 'Cancel',
 
   [I18N_KEYS.fieldUniqueId]: 'Unique ID',
   [I18N_KEYS.fieldPassword]: 'Password',
@@ -107,6 +108,11 @@ export const en: Record<I18nKey, string> = {
   [I18N_KEYS.errorEmergencyPhone]: 'Emergency phone must be at least 10 digits',
   [I18N_KEYS.errorOwnPhone]: 'Own phone must be at least 10 digits or empty',
   [I18N_KEYS.errorAadhaar]: 'Aadhaar must be 12 digits or empty',
+  [I18N_KEYS.errorPhotoRequired]: 'Take a live photo before saving',
+  [I18N_KEYS.actionTakePhoto]: 'Take live photo',
+  [I18N_KEYS.actionRetakePhoto]: 'Retake photo',
+  [I18N_KEYS.actionAllowCamera]: 'Allow camera',
+  [I18N_KEYS.addMemberPhotoCaptured]: 'Live photo captured',
 
   [I18N_KEYS.caseBoothCollection]: 'Booth collection',
   [I18N_KEYS.caseLastSeenNearGhat]: 'Last seen near ghat',

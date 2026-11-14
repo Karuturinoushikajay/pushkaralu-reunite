@@ -17,6 +17,7 @@ export const hi: Record<I18nKey, string> = {
   [I18N_KEYS.actionNavigateToBooth]: 'बूथ तक मार्ग',
   [I18N_KEYS.actionCallBooth]: 'बूथ को कॉल करें',
   [I18N_KEYS.actionLogout]: 'लॉग आउट',
+  [I18N_KEYS.actionCancel]: 'रद्द करें',
 
   [I18N_KEYS.fieldUniqueId]: 'विशिष्ट ID',
   [I18N_KEYS.fieldPassword]: 'पासवर्ड',
@@ -109,6 +110,11 @@ export const hi: Record<I18nKey, string> = {
   [I18N_KEYS.errorEmergencyPhone]: 'आपातकालीन फ़ोन कम से कम 10 अंकों का होना चाहिए',
   [I18N_KEYS.errorOwnPhone]: 'अपना फ़ोन कम से कम 10 अंक या खाली',
   [I18N_KEYS.errorAadhaar]: 'आधार 12 अंक या खाली होना चाहिए',
+  [I18N_KEYS.errorPhotoRequired]: 'सेव करने से पहले लाइव फ़ोटो लें',
+  [I18N_KEYS.actionTakePhoto]: 'लाइव फ़ोटो लें',
+  [I18N_KEYS.actionRetakePhoto]: 'फ़ोटो फिर लें',
+  [I18N_KEYS.actionAllowCamera]: 'कैमरा अनुमति दें',
+  [I18N_KEYS.addMemberPhotoCaptured]: 'लाइव फ़ोटो ली गई',
 
   [I18N_KEYS.caseBoothCollection]: 'बूथ संग्रह',
   [I18N_KEYS.caseLastSeenNearGhat]: 'घाट के पास अंतिम बार देखा',

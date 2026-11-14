@@ -21,6 +21,7 @@ export const I18N_KEYS = {
   actionNavigateToBooth: 'action.navigateToBooth',
   actionCallBooth: 'action.callBooth',
   actionLogout: 'action.logout',
+  actionCancel: 'action.cancel',
 
   // Onboarding
   fieldUniqueId: 'field.uniqueId',
@@ -117,6 +118,11 @@ export const I18N_KEYS = {
   errorEmergencyPhone: 'error.emergencyPhone',
   errorOwnPhone: 'error.ownPhone',
   errorAadhaar: 'error.aadhaar',
+  errorPhotoRequired: 'error.photoRequired',
+  actionTakePhoto: 'action.takePhoto',
+  actionRetakePhoto: 'action.retakePhoto',
+  actionAllowCamera: 'action.allowCamera',
+  addMemberPhotoCaptured: 'addMember.photoCaptured',
 
   // Case / booth collection (family)
   caseBoothCollection: 'case.boothCollection',

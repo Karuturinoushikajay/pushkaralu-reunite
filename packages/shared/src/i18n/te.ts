@@ -17,6 +17,7 @@ export const te: Record<I18nKey, string> = {
   [I18N_KEYS.actionNavigateToBooth]: 'బూత్‌కు దారి చూపించు',
   [I18N_KEYS.actionCallBooth]: 'బూత్‌కు కాల్ చేయండి',
   [I18N_KEYS.actionLogout]: 'లాగ్ అవుట్',
+  [I18N_KEYS.actionCancel]: 'రద్దు',
 
   [I18N_KEYS.fieldUniqueId]: 'ప్రత్యేక ID',
   [I18N_KEYS.fieldPassword]: 'పాస్‌వర్డ్',
@@ -108,6 +109,11 @@ export const te: Record<I18nKey, string> = {
   [I18N_KEYS.errorEmergencyPhone]: 'అత్యవసర ఫోన్ కనీసం 10 అంకెలు ఉండాలి',
   [I18N_KEYS.errorOwnPhone]: 'మీ ఫోన్ కనీసం 10 అంకెలు లేదా ఖాళీగా ఉండాలి',
   [I18N_KEYS.errorAadhaar]: 'ఆధార్ 12 అంకెలు లేదా ఖాళీగా ఉండాలి',
+  [I18N_KEYS.errorPhotoRequired]: 'సేవ్ చేయడానికి ముందు ప్రత్యక్ష ఫోటో తీయండి',
+  [I18N_KEYS.actionTakePhoto]: 'ప్రత్యక్ష ఫోటో తీయండి',
+  [I18N_KEYS.actionRetakePhoto]: 'ఫోటో మళ్లీ తీయండి',
+  [I18N_KEYS.actionAllowCamera]: 'కెమెరా అనుమతి ఇవ్వండి',
+  [I18N_KEYS.addMemberPhotoCaptured]: 'ప్రత్యక్ష ఫోటో తీయబడింది',
 
   [I18N_KEYS.caseBoothCollection]: 'బూత్ సేకరణ',
   [I18N_KEYS.caseLastSeenNearGhat]: 'ఘాట్ సమీపంలో చివరిసారి చూశారు',

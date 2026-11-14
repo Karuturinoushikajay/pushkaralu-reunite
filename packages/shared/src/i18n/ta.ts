@@ -17,6 +17,7 @@ export const ta: Record<I18nKey, string> = {
   [I18N_KEYS.actionNavigateToBooth]: 'பூத் வழிகாட்டி',
   [I18N_KEYS.actionCallBooth]: 'பூத்தை அழை',
   [I18N_KEYS.actionLogout]: 'வெளியேறு',
+  [I18N_KEYS.actionCancel]: 'ரத்து',
 
   [I18N_KEYS.fieldUniqueId]: 'தனி ID',
   [I18N_KEYS.fieldPassword]: 'கடவுச்சொல்',
@@ -107,6 +108,11 @@ export const ta: Record<I18nKey, string> = {
   [I18N_KEYS.errorEmergencyPhone]: 'அவசர போன் குறைந்தது 10 இலக்கங்கள்',
   [I18N_KEYS.errorOwnPhone]: 'உங்கள் போன் குறைந்தது 10 இலக்கங்கள் அல்லது காலி',
   [I18N_KEYS.errorAadhaar]: 'ஆதார் 12 இலக்கங்கள் அல்லது காலி',
+  [I18N_KEYS.errorPhotoRequired]: 'சேமிப்பதற்கு முன் நேரடி படம் எடுக்கவும்',
+  [I18N_KEYS.actionTakePhoto]: 'நேரடி படம் எடு',
+  [I18N_KEYS.actionRetakePhoto]: 'படம் மீண்டும் எடு',
+  [I18N_KEYS.actionAllowCamera]: 'கேமரா அனுமதி',
+  [I18N_KEYS.addMemberPhotoCaptured]: 'நேரடி படம் எடுக்கப்பட்டது',
 
   [I18N_KEYS.caseBoothCollection]: 'பூத் சேகரிப்பு',
   [I18N_KEYS.caseLastSeenNearGhat]: 'காட் அருகில் கடைசியாகப் பார்த்தது',
