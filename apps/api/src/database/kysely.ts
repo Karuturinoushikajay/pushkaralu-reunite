@@ -6,7 +6,16 @@ import type { Database } from './schema';
 types.setTypeParser(types.builtins.INT8, (v) => Number.parseInt(v, 10));
 
 export function createPool(connectionString: string): Pool {
-  return new Pool({ connectionString, max: 10 });
+  // Render / managed Postgres require TLS; local Docker does not.
+  const needsSsl =
+    /sslmode=require/i.test(connectionString) ||
+    /\.render\.com/i.test(connectionString) ||
+    process.env.NODE_ENV === 'production';
+  return new Pool({
+    connectionString,
+    max: 10,
+    ...(needsSsl ? { ssl: { rejectUnauthorized: false } } : {}),
+  });
 }
 
 export function createDb(connectionString: string): Kysely<Database> {

@@ -67,7 +67,12 @@ export function loadConfig(source: NodeJS.ProcessEnv = process.env): AppConfig {
   if (source === process.env) {
     hydrateEnvFromFile();
   }
-  const parsed = envSchema.safeParse(source);
+  // Render (and most PaaS) inject PORT; prefer it over API_PORT when set.
+  const normalized: NodeJS.ProcessEnv = {
+    ...source,
+    API_PORT: source.PORT ?? source.API_PORT,
+  };
+  const parsed = envSchema.safeParse(normalized);
   if (!parsed.success) {
     const issues = parsed.error.issues
       .map((i) => `  - ${i.path.join('.') || '(root)'}: ${i.message}`)

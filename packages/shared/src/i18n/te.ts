@@ -67,8 +67,8 @@ export const te: Record<I18nKey, string> = {
 
   [I18N_KEYS.statusMissingDetail]: 'తప్పిపోయారు — వెతుకులాట కొనసాగుతోంది',
   [I18N_KEYS.statusFoundDetail]: 'కనుగొనబడింది — బూత్‌కు తీసుకెళ్లండి (ఇంకా తీసుకోలేదు)',
-  [I18N_KEYS.statusMatchedDetail]: 'బూత్ వద్ద — కుటుంబ OTPతో తీసుకోండి',
-  [I18N_KEYS.statusReunitedDetail]: 'కలిశారు — OTP ధృవీకరణ పూర్తి',
+  [I18N_KEYS.statusMatchedDetail]: 'బూత్ వద్ద — నావిగేట్ చేసి తీసుకోండి',
+  [I18N_KEYS.statusReunitedDetail]: 'కలిశారు — బూత్ వద్ద తీసుకున్నారు',
   [I18N_KEYS.statusSafe]: 'సురక్షితం',
 
   [I18N_KEYS.homeTapNavigateBooth]: 'నొక్కండి → బూత్‌కు వెళ్లండి',
@@ -87,9 +87,9 @@ export const te: Record<I18nKey, string> = {
   [I18N_KEYS.newsAtBooth]: 'బూత్ వద్ద',
   [I18N_KEYS.newsFound]: 'కనుగొనబడింది',
   [I18N_KEYS.newsMatchedHint]:
-    'బూత్ వద్ద ఉన్నారు — కేస్ స్క్రీన్‌లో కుటుంబ OTPతో తీసుకోండి (ఆకుపచ్చ).',
+    'బూత్ వద్ద ఉన్నారు — నొక్కి నావిగేట్ చేసి తీసుకోండి.',
   [I18N_KEYS.newsFoundHint]:
-    'వాలంటీర్ వారితో ఉన్నారు. బూత్‌కు వెళ్లండి; MATCHED తర్వాత OTP తెరుచుకుంటుంది.',
+    'వాలంటీర్ వారితో ఉన్నారు. బూత్‌కు నావిగేట్ చేసి తీసుకోండి.',
   [I18N_KEYS.newsAction]: 'చర్య',
   [I18N_KEYS.newsNotice]: 'నోటీసు',
 
@@ -116,24 +116,24 @@ export const te: Record<I18nKey, string> = {
   [I18N_KEYS.caseDefaultBooth]: 'బూత్ 07, కోటిలింగాల ఘాట్',
   [I18N_KEYS.caseStillMissing]: 'ఇంకా తప్పిపోయారు — వాలంటీర్లు మరియు పోలీసులు వెతుకుతున్నారు.',
   [I18N_KEYS.caseFoundGoBooth]:
-    'కనుగొనబడింది — బూత్‌కు వెళ్లండి. బూత్ MATCHED నిర్ధారించిన తర్వాత OTP తెరుచుకుంటుంది.',
-  [I18N_KEYS.caseCollectOtpTitle]: 'OTPతో తీసుకోండి (కుటుంబ లాగిన్)',
+    'దయచేసి బూత్‌కు నావిగేట్ చేసి తీసుకోండి.',
+  [I18N_KEYS.caseCollectOtpTitle]: 'బూత్ వద్ద తీసుకోండి',
   [I18N_KEYS.caseCollectOtpHint]:
-    'వ్యక్తి బూత్ వద్ద ఉన్నారు. సంరక్షక ఫోన్‌కు OTP పంపి, ఆకుపచ్చగా నమోదు చేయండి.',
+    'వ్యక్తి బూత్ వద్ద ఉన్నారు. అక్కడికి నావిగేట్ చేసి తీసుకోండి.',
   [I18N_KEYS.caseSendOtp]: 'సేకరణ OTP పంపు',
   [I18N_KEYS.caseResendOtp]: 'OTP మళ్లీ పంపు',
   [I18N_KEYS.caseSentTo]: 'పంపిన నంబర్',
   [I18N_KEYS.caseOtpPlaceholder]: '6 అంకెల OTP',
   [I18N_KEYS.caseVerifyOtp]: 'OTP ధృవీకరించి తీసుకున్నట్లు నమోదు',
-  [I18N_KEYS.caseCollectedTitle]: 'తీసుకుని ధృవీకరించబడింది',
-  [I18N_KEYS.caseCollectedBody]: 'OTP నిర్ధారించబడింది. సభ్యుడు కుటుంబంతో కలిశారు.',
+  [I18N_KEYS.caseCollectedTitle]: 'తీసుకున్నారు',
+  [I18N_KEYS.caseCollectedBody]: 'సభ్యుడు కుటుంబంతో కలిశారు.',
 
   [I18N_KEYS.memberPhotoDetails]: 'ఫోటో + వివరాలు',
   [I18N_KEYS.memberLastSeenPin]: 'చివరి చూసిన పిన్ చురుకుగా ఉంది',
   [I18N_KEYS.memberFoundGoBooth]: 'కనుగొనబడింది — బూత్‌కు వెళ్లి తీసుకోండి',
   [I18N_KEYS.memberLastSeenGps]: 'చివరిసారి చూశారు (GPS నుండి)',
   [I18N_KEYS.memberOpenCase]: 'ఓపెన్ కేస్',
-  [I18N_KEYS.memberFoundHint]: 'వాలంటీర్ వారితో ఉన్నారు — బూత్‌కు వెళ్లండి. MATCHED తర్వాత OTP.',
+  [I18N_KEYS.memberFoundHint]: 'వాలంటీర్ వారితో ఉన్నారు — బూత్‌కు నావిగేట్ చేసి తీసుకోండి.',
 
   [I18N_KEYS.wristbandTitle]: 'రిస్ట్‌బ్యాండ్ QR',
   [I18N_KEYS.wristbandHint]:

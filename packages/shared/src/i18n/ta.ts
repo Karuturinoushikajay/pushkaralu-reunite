@@ -66,8 +66,8 @@ export const ta: Record<I18nKey, string> = {
 
   [I18N_KEYS.statusMissingDetail]: 'காணவில்லை — தேடல் நடைபெறுகிறது',
   [I18N_KEYS.statusFoundDetail]: 'கண்டுபிடிக்கப்பட்டது — பூத்துக்கு அழைத்துச் செல்லவும்',
-  [I18N_KEYS.statusMatchedDetail]: 'பூத்தில் — குடும்ப OTP மூலம் பெறவும்',
-  [I18N_KEYS.statusReunitedDetail]: 'மீண்டும் இணைந்தார் — OTP உறுதி',
+  [I18N_KEYS.statusMatchedDetail]: 'பூத்தில் — சென்று பெறவும்',
+  [I18N_KEYS.statusReunitedDetail]: 'மீண்டும் இணைந்தார் — பூத்தில் சேகரிப்பு',
   [I18N_KEYS.statusSafe]: 'பாதுகாப்பு',
 
   [I18N_KEYS.homeTapNavigateBooth]: 'தொடு → பூத்துக்குச் செல்',
@@ -86,9 +86,9 @@ export const ta: Record<I18nKey, string> = {
   [I18N_KEYS.newsAtBooth]: 'பூத்தில்',
   [I18N_KEYS.newsFound]: 'கண்டுபிடிக்கப்பட்டது',
   [I18N_KEYS.newsMatchedHint]:
-    'பூத்தில் உள்ளனர் — வழக்குத் திரையில் குடும்ப OTP மூலம் பெறவும் (பச்சை).',
+    'பூத்தில் உள்ளனர் — தொட்டு சென்று பெறவும்.',
   [I18N_KEYS.newsFoundHint]:
-    'தன்னார்வலர் அவர்களுடன் உள்ளார். பூத்துக்குச் செல்லவும்; MATCHED பிறகு OTP.',
+    'தன்னார்வலர் அவர்களுடன் உள்ளார். பூத்துக்குச் சென்று பெறவும்.',
   [I18N_KEYS.newsAction]: 'நடவடிக்கை',
   [I18N_KEYS.newsNotice]: 'அறிவிப்பு',
 
@@ -115,24 +115,24 @@ export const ta: Record<I18nKey, string> = {
   [I18N_KEYS.caseDefaultBooth]: 'பூத் 07, கோடிலிங்கால காட்',
   [I18N_KEYS.caseStillMissing]: 'இன்னும் காணவில்லை — தன்னார்வலர் மற்றும் காவலர் தேடுகின்றனர்.',
   [I18N_KEYS.caseFoundGoBooth]:
-    'கண்டுபிடிக்கப்பட்டது — பூத்துக்குச் செல்லவும். MATCHED உறுதிக்குப் பிறகு OTP.',
-  [I18N_KEYS.caseCollectOtpTitle]: 'OTP மூலம் பெறவும் (குடும்ப உள்நுழைவு)',
+    'தயவுசெய்து பூத்துக்குச் சென்று பெறவும்.',
+  [I18N_KEYS.caseCollectOtpTitle]: 'பூத்தில் பெறவும்',
   [I18N_KEYS.caseCollectOtpHint]:
-    'நபர் பூத்தில் உள்ளார். பாதுகாவலர் போனுக்கு OTP அனுப்பி பச்சையாக குறிக்கவும்.',
+    'நபர் பூத்தில் உள்ளார். அங்கு சென்று பெறவும்.',
   [I18N_KEYS.caseSendOtp]: 'சேகரிப்பு OTP அனுப்பு',
   [I18N_KEYS.caseResendOtp]: 'OTP மீண்டும் அனுப்பு',
   [I18N_KEYS.caseSentTo]: 'அனுப்பியது',
   [I18N_KEYS.caseOtpPlaceholder]: '6 இலக்க OTP',
   [I18N_KEYS.caseVerifyOtp]: 'OTP சரிபார்த்து சேகரித்ததாகக் குறி',
-  [I18N_KEYS.caseCollectedTitle]: 'சேகரித்து உறுதிசெய்யப்பட்டது',
-  [I18N_KEYS.caseCollectedBody]: 'OTP உறுதி. உறுப்பினர் குடும்பத்துடன் இணைந்தார்.',
+  [I18N_KEYS.caseCollectedTitle]: 'சேகரிக்கப்பட்டது',
+  [I18N_KEYS.caseCollectedBody]: 'உறுப்பினர் குடும்பத்துடன் இணைந்தார்.',
 
   [I18N_KEYS.memberPhotoDetails]: 'படம் + விவரங்கள்',
   [I18N_KEYS.memberLastSeenPin]: 'கடைசி பார்த்த பின்னை செயலில்',
   [I18N_KEYS.memberFoundGoBooth]: 'கண்டுபிடிக்கப்பட்டது — பூத்துக்குச் சென்று பெறவும்',
   [I18N_KEYS.memberLastSeenGps]: 'கடைசியாகப் பார்த்தது (GPS)',
   [I18N_KEYS.memberOpenCase]: 'திறந்த வழக்கு',
-  [I18N_KEYS.memberFoundHint]: 'தன்னார்வலர் உடன் உள்ளார் — பூத்துக்குச் செல்லவும். MATCHED பிறகு OTP.',
+  [I18N_KEYS.memberFoundHint]: 'தன்னார்வலர் உடன் உள்ளார் — பூத்துக்குச் சென்று பெறவும்.',
 
   [I18N_KEYS.wristbandTitle]: 'ரிஸ்ட்பேண்ட் QR',
   [I18N_KEYS.wristbandHint]:

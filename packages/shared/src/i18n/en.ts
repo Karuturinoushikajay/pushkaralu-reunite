@@ -66,8 +66,8 @@ export const en: Record<I18nKey, string> = {
 
   [I18N_KEYS.statusMissingDetail]: 'MISSING — search in progress',
   [I18N_KEYS.statusFoundDetail]: 'FOUND — take to booth (not collected yet)',
-  [I18N_KEYS.statusMatchedDetail]: 'AT BOOTH — family OTP to collect',
-  [I18N_KEYS.statusReunitedDetail]: 'REUNITED — collected (OTP verified)',
+  [I18N_KEYS.statusMatchedDetail]: 'AT BOOTH — navigate to collect',
+  [I18N_KEYS.statusReunitedDetail]: 'REUNITED — collected at booth',
   [I18N_KEYS.statusSafe]: 'Safe',
 
   [I18N_KEYS.homeTapNavigateBooth]: 'Tap → navigate to booth',
@@ -86,9 +86,9 @@ export const en: Record<I18nKey, string> = {
   [I18N_KEYS.newsAtBooth]: 'AT BOOTH',
   [I18N_KEYS.newsFound]: 'FOUND',
   [I18N_KEYS.newsMatchedHint]:
-    'At the booth — use family OTP on the case screen to collect (green).',
+    'At the booth — tap to navigate and collect.',
   [I18N_KEYS.newsFoundHint]:
-    'A volunteer is with them. Go to the booth; OTP unlocks after MATCHED.',
+    'A volunteer is with them. Navigate to the booth to collect.',
   [I18N_KEYS.newsAction]: 'ACTION',
   [I18N_KEYS.newsNotice]: 'Notice',
 
@@ -115,24 +115,24 @@ export const en: Record<I18nKey, string> = {
   [I18N_KEYS.caseDefaultBooth]: 'Booth 07, Kotilingala Ghat',
   [I18N_KEYS.caseStillMissing]: 'Still missing — volunteers and police are searching.',
   [I18N_KEYS.caseFoundGoBooth]:
-    'Found — please go to the booth. OTP unlocks after booth confirms MATCHED.',
-  [I18N_KEYS.caseCollectOtpTitle]: 'Collect with OTP (family login)',
+    'Please navigate to the booth to collect.',
+  [I18N_KEYS.caseCollectOtpTitle]: 'Collect at booth',
   [I18N_KEYS.caseCollectOtpHint]:
-    'Person is at the booth. Send OTP to the guardian phone, then enter it to mark collected (green).',
+    'Person is at the booth. Navigate there to collect.',
   [I18N_KEYS.caseSendOtp]: 'Send collection OTP',
   [I18N_KEYS.caseResendOtp]: 'Resend collection OTP',
   [I18N_KEYS.caseSentTo]: 'Sent to',
   [I18N_KEYS.caseOtpPlaceholder]: '6-digit OTP',
   [I18N_KEYS.caseVerifyOtp]: 'Verify OTP & mark collected',
-  [I18N_KEYS.caseCollectedTitle]: 'Collected & verified',
-  [I18N_KEYS.caseCollectedBody]: 'OTP confirmed. Member is reunited with family.',
+  [I18N_KEYS.caseCollectedTitle]: 'Collected',
+  [I18N_KEYS.caseCollectedBody]: 'Member is reunited with family.',
 
   [I18N_KEYS.memberPhotoDetails]: 'Photo + details',
   [I18N_KEYS.memberLastSeenPin]: 'Last seen pin active',
   [I18N_KEYS.memberFoundGoBooth]: 'FOUND — go to booth to collect',
   [I18N_KEYS.memberLastSeenGps]: 'Last seen (auto from GPS)',
   [I18N_KEYS.memberOpenCase]: 'Open case',
-  [I18N_KEYS.memberFoundHint]: 'Volunteer has them — go to the booth. OTP after MATCHED.',
+  [I18N_KEYS.memberFoundHint]: 'Volunteer has them — navigate to the booth to collect.',
 
   [I18N_KEYS.wristbandTitle]: 'Wristband QR',
   [I18N_KEYS.wristbandHint]:

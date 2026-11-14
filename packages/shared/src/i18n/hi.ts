@@ -68,8 +68,8 @@ export const hi: Record<I18nKey, string> = {
 
   [I18N_KEYS.statusMissingDetail]: 'लापता — खोज जारी',
   [I18N_KEYS.statusFoundDetail]: 'मिल गया — बूथ ले जाएँ (अभी संग्रह नहीं)',
-  [I18N_KEYS.statusMatchedDetail]: 'बूथ पर — परिवार OTP से लें',
-  [I18N_KEYS.statusReunitedDetail]: 'पुनर्मिलन — OTP सत्यापित',
+  [I18N_KEYS.statusMatchedDetail]: 'बूथ पर — नेविगेट कर लें',
+  [I18N_KEYS.statusReunitedDetail]: 'पुनर्मिलन — बूथ पर संग्रह',
   [I18N_KEYS.statusSafe]: 'सुरक्षित',
 
   [I18N_KEYS.homeTapNavigateBooth]: 'टैप → बूथ पर जाएँ',
@@ -88,9 +88,9 @@ export const hi: Record<I18nKey, string> = {
   [I18N_KEYS.newsAtBooth]: 'बूथ पर',
   [I18N_KEYS.newsFound]: 'मिल गया',
   [I18N_KEYS.newsMatchedHint]:
-    'बूथ पर हैं — केस स्क्रीन पर परिवार OTP से लें (हरा).',
+    'बूथ पर हैं — टैप कर नेविगेट करें और लें.',
   [I18N_KEYS.newsFoundHint]:
-    'स्वयंसेवक उनके साथ हैं. बूथ जाएँ; MATCHED के बाद OTP खुलेगा.',
+    'स्वयंसेवक उनके साथ हैं. बूथ पर नेविगेट कर लें.',
   [I18N_KEYS.newsAction]: 'कार्रवाई',
   [I18N_KEYS.newsNotice]: 'सूचना',
 
@@ -117,24 +117,24 @@ export const hi: Record<I18nKey, string> = {
   [I18N_KEYS.caseDefaultBooth]: 'बूथ 07, कोटिलिंगला घाट',
   [I18N_KEYS.caseStillMissing]: 'अभी भी लापता — स्वयंसेवक और पुलिस खोज रहे हैं.',
   [I18N_KEYS.caseFoundGoBooth]:
-    'मिल गया — बूथ जाएँ. बूथ MATCHED की पुष्टि के बाद OTP खुलेगा.',
-  [I18N_KEYS.caseCollectOtpTitle]: 'OTP से लें (पारिवारिक लॉगिन)',
+    'कृपया बूथ पर नेविगेट कर लें.',
+  [I18N_KEYS.caseCollectOtpTitle]: 'बूथ पर लें',
   [I18N_KEYS.caseCollectOtpHint]:
-    'व्यक्ति बूथ पर है. अभिभावक फ़ोन पर OTP भेजें, फिर हरा चिह्नित करें.',
+    'व्यक्ति बूथ पर है. वहाँ नेविगेट कर लें.',
   [I18N_KEYS.caseSendOtp]: 'संग्रह OTP भेजें',
   [I18N_KEYS.caseResendOtp]: 'OTP फिर भेजें',
   [I18N_KEYS.caseSentTo]: 'भेजा गया',
   [I18N_KEYS.caseOtpPlaceholder]: '6 अंकों का OTP',
   [I18N_KEYS.caseVerifyOtp]: 'OTP सत्यापित कर संग्रह चिह्नित करें',
-  [I18N_KEYS.caseCollectedTitle]: 'संग्रहित और सत्यापित',
-  [I18N_KEYS.caseCollectedBody]: 'OTP पुष्टि. सदस्य परिवार से मिल गया.',
+  [I18N_KEYS.caseCollectedTitle]: 'संग्रहित',
+  [I18N_KEYS.caseCollectedBody]: 'सदस्य परिवार से मिल गया.',
 
   [I18N_KEYS.memberPhotoDetails]: 'फ़ोटो + विवरण',
   [I18N_KEYS.memberLastSeenPin]: 'अंतिम देखा पिन सक्रिय',
   [I18N_KEYS.memberFoundGoBooth]: 'मिल गया — बूथ जाकर लें',
   [I18N_KEYS.memberLastSeenGps]: 'अंतिम बार देखा (GPS से)',
   [I18N_KEYS.memberOpenCase]: 'खुला केस',
-  [I18N_KEYS.memberFoundHint]: 'स्वयंसेवक साथ हैं — बूथ जाएँ. MATCHED के बाद OTP.',
+  [I18N_KEYS.memberFoundHint]: 'स्वयंसेवक साथ हैं — बूथ पर नेविगेट कर लें.',
 
   [I18N_KEYS.wristbandTitle]: 'रिस्टबैंड QR',
   [I18N_KEYS.wristbandHint]:

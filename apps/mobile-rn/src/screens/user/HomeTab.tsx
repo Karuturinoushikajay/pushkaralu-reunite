@@ -113,7 +113,7 @@ export function HomeTab() {
       return;
     }
 
-    // MATCHED → booth OTP / collection screen
+    // MATCHED → case page with Navigate to booth (no OTP)
     if (status === 'MATCHED' && item.caseId) {
       navigation.navigate('CaseDetail', { caseId: item.caseId });
       return;
