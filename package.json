@@ -5,7 +5,7 @@
   "description": "Lost-person reporting and reunification app for Godavari Pushkaralu 2027 (Rajamahendravaram).",
   "packageManager": "pnpm@9.15.0",
   "engines": {
-    "node": "20.x"
+    "node": ">=20"
   },
   "scripts": {
     "build": "turbo run build",
