@@ -15,10 +15,12 @@ services:
     plan: free
     region: singapore
     rootDir: .
-    buildCommand: corepack enable && pnpm install --frozen-lockfile && pnpm --filter @pushkaralu/shared build && pnpm --filter @pushkaralu/api build
+    buildCommand: npm install -g pnpm@9.15.0 && pnpm install --frozen-lockfile && pnpm --filter @pushkaralu/shared build && pnpm --filter @pushkaralu/api build
     startCommand: pnpm --filter @pushkaralu/api exec node dist/database/migrator.js latest && pnpm --filter @pushkaralu/api start:prod
     healthCheckPath: /health
     envVars:
+      - key: NODE_VERSION
+        value: "20.19.0"
       - key: NODE_ENV
         value: production
       - key: SMS_PROVIDER
