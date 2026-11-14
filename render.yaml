@@ -13,7 +13,7 @@ services:
     name: pushkaralu-api
     runtime: node
     plan: free
-    region: singapore
+    region: oregon
     rootDir: .
     buildCommand: npm install -g pnpm@9.15.0 && pnpm install --frozen-lockfile --prod=false && pnpm --filter @pushkaralu/shared build && pnpm --filter @pushkaralu/api build
     startCommand: pnpm --filter @pushkaralu/api exec node dist/database/migrator.js latest && pnpm --filter @pushkaralu/api start:prod
